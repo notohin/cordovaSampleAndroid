@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CE9E8DCDC4D4CA6A5D2EBBB /* CDVViewController+SplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAC5DA75104439689A110B8 /* CDVViewController+SplashScreen.m */; };
+		1AA230DF4D4A4065994DCC22 /* watch-87x87.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C6990480DCC4A2FB994BF8F /* watch-87x87.png */; };
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		20A6DAC912984AADBBF170E9 /* icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED065FB927D44A81AFB88F78 /* icon-60@3x.png */; };
+		21810B7DF383443B826B7C60 /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0924685621C94F4E83DA1AA1 /* Default-Portrait@2x.png */; };
+		244A4A86CA6B46A9B9CEFA22 /* CDVStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F94AFF1C684BA19022E7BD /* CDVStatusBar.m */; };
+		2690A57EC99542F79327C74E /* Default-Landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3CA119629D45E1B1AE5670 /* Default-Landscape@2x.png */; };
+		2D1F86DFEDB94A9EB8B2AA66 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 252EF69BA0894CCCBBF63D34 /* Icon-Small.png */; };
+		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
+		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
+		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		307CA19FD648472DA7C050A2 /* Default-667h.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D94028C23304DFDA0330AD0 /* Default-667h.png */; };
+		3820531BE5834FF6A6338A06 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF3C460145B4174ABA93B29 /* Default-Landscape.png */; };
+		3A30F6948EB44F9596D3FB72 /* icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = A4D5B56869D84ECD84555AEB /* icon-60.png */; };
+		3A75E13CB4814F889F1AD6E3 /* CDVLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6371A0E490454232B88A22C4 /* CDVLocation.m */; };
+		41F975F831D547978D2574BD /* Default-Landscape-736h.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D4EE4D37A9450B85E58389 /* Default-Landscape-736h.png */; };
+		4324926348AD485D93ABB531 /* Default-736h.png in Resources */ = {isa = PBXBuildFile; fileRef = 759EB8F0D9F7474CAAC7AB13 /* Default-736h.png */; };
+		454F1BC622CD44A1AEEE532F /* CDVSplashScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2730E85BA245ECAA07E63A /* CDVSplashScreen.m */; };
+		46E83838AD4F40FF84D31B12 /* watch-196x196.png in Resources */ = {isa = PBXBuildFile; fileRef = 25A1706D086344A5947A33E9 /* watch-196x196.png */; };
+		4CB36787EBBF410B8E6AE28C /* Default-Landscape-1366@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B64F620B2B534D94BE4A3D41 /* Default-Landscape-1366@2x.png */; };
+		4E1A886B4F0344408ED0DA4B /* watch-172x172.png in Resources */ = {isa = PBXBuildFile; fileRef = B7D4FC8410CB4B4583B6F633 /* watch-172x172.png */; };
+		56C343F3944F4B83B0D59D9E /* watch-88x88.png in Resources */ = {isa = PBXBuildFile; fileRef = 95182DEC2C4C4BA0B3C92883 /* watch-88x88.png */; };
+		58F76FA36D23405482360A6E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CCBC5D9545545B4A0CAFD59 /* Default@2x.png */; };
+		60A4979309F0473E90FF1A14 /* watch-48x48.png in Resources */ = {isa = PBXBuildFile; fileRef = 2458776D3AD04C53A99AD07C /* watch-48x48.png */; };
+		647AD0537AA047FCA6D19F10 /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65A2D316AE534E56BC65FF35 /* icon-60@2x.png */; };
+		68AF5A5A3147458BBAEE493B /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1813E58568A94288BC2B9FAF /* Icon-Small@2x.png */; };
+		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		6BBD782E93B849D2B7A04AC2 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8182DACE7BF0415F87B984FA /* icon-72@2x.png */; };
+		74B44AA4B95642D398D92C0B /* icon-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 563F5A062B4E42C399831473 /* icon-40@2x.png */; };
+		846EB80FF32847759496F66B /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 588E619F88344826AE5BFB3C /* Default-Portrait.png */; };
+		8F21331872534B0F9B4BDF4E /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6271A1BBCBF843C8A58BE564 /* icon@2x.png */; };
+		94A35732F12D4672AEE3CA1C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD05C212BA764498B7A49531 /* Default-568h@2x.png */; };
+		94CB5A7D863A44E9B5E4A34C /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 059CA5C30B5748AC86C74800 /* Icon-Small-50.png */; };
+		9EA4B8F58B944D4DB3C8637D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6AF3D1D65F5485E95DCDE39 /* icon.png */; };
+		9EC1759A2C904B93A203E549 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5CD3D0D68FA4C5AB7AE3560 /* CoreLocation.framework */; };
+		9F456CBF64314B73B008A852 /* Default-Portrait-1366@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D0EC2E651A44A66A8824801 /* Default-Portrait-1366@2x.png */; };
+		A3379375863645E5B465B333 /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EDBDDBCC56E41538061CF5E /* icon-76.png */; };
+		A5EFC1C1FFEF412BBE409848 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D65521F0D594B1C8556A80E /* Icon-Small-50@2x.png */; };
+		A889305373564F0EAD8BD5A2 /* icon-83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7583068851074DA39E60ED9D /* icon-83.5@2x.png */; };
+		C9D4755AD11C404993A5C8F0 /* Default-Landscape-667h.png in Resources */ = {isa = PBXBuildFile; fileRef = B7A539FC20DB4D97BCA0D2ED /* Default-Landscape-667h.png */; };
+		D2C0EADDE44A4BB5933E814E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A89C99B294AD44F5B02AD021 /* Default.png */; };
+		DA6816702BFF438DA371B341 /* watch-80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F40C73874FC416994DC7009 /* watch-80x80.png */; };
+		DEEEAD30737B4B8EBAE55C3D /* watch-55x55.png in Resources */ = {isa = PBXBuildFile; fileRef = A5D93EAA220E4D098D020FBE /* watch-55x55.png */; };
+		E2F7E822EB4A4F42B444633A /* icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = B937A8EF87C64E4D915D6A1B /* icon-40.png */; };
+		E470C768EB184D1885C79D1A /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = BC04491312274AA9894E1E5D /* icon-72.png */; };
+		E4ABF19D50C14383A03F8C05 /* icon-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6777CA2BFE024F6D8B447876 /* icon-40@3x.png */; };
+		E60C25641F0F430BAF81AC3B /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C36667ABC9074EDBAF136BDB /* icon-76@2x.png */; };
+		E99A5C9AD4754C1AA5FA9C0B /* watch-58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DDDDEAB6054392B9B8F96E /* watch-58x58.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301BF534109A57CC0062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+		301BF550109A68C00062928A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = CordovaLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0476C9283A664C7CA7761422 /* CDVStatusBar.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVStatusBar.h; path = "cordova-plugin-statusbar/CDVStatusBar.h"; sourceTree = "<group>"; };
+		059CA5C30B5748AC86C74800 /* Icon-Small-50.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		0924685621C94F4E83DA1AA1 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		0961EB2ED6D442268FA0A00D /* CDVViewController+SplashScreen.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "CDVViewController+SplashScreen.h"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.h"; sourceTree = "<group>"; };
+		1813E58568A94288BC2B9FAF /* Icon-Small@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* JitterzMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JitterzMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2458776D3AD04C53A99AD07C /* watch-48x48.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "watch-48x48.png"; sourceTree = "<group>"; };
+		252EF69BA0894CCCBBF63D34 /* Icon-Small.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		25A1706D086344A5947A33E9 /* watch-196x196.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "watch-196x196.png"; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
+		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
+		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		302D95EF14D2391D003F00A1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		302D95F014D2391D003F00A1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		3047A50F1AB8059700498E2A /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-debug.xcconfig"; path = "cordova/build-debug.xcconfig"; sourceTree = SOURCE_ROOT; };
+		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
+		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
+		32CA4F630368D1EE00C91783 /* JitterzMobile-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JitterzMobile-Prefix.pch"; sourceTree = "<group>"; };
+		3EDBDDBCC56E41538061CF5E /* icon-76.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "icon-76.png"; sourceTree = "<group>"; };
+		42DDDDEAB6054392B9B8F96E /* watch-58x58.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "watch-58x58.png"; sourceTree = "<group>"; };
+		4D65521F0D594B1C8556A80E /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		4E36367F53294B17884E766B /* CDVSplashScreen.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVSplashScreen.h; path = "cordova-plugin-splashscreen/CDVSplashScreen.h"; sourceTree = "<group>"; };
+		563F5A062B4E42C399831473 /* icon-40@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "icon-40@2x.png"; sourceTree = "<group>"; };
+		56D4EE4D37A9450B85E58389 /* Default-Landscape-736h.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Default-Landscape-736h.png"; sourceTree = "<group>"; };
+		588E619F88344826AE5BFB3C /* Default-Portrait.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		5F40C73874FC416994DC7009 /* watch-80x80.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "watch-80x80.png"; sourceTree = "<group>"; };
+		6271A1BBCBF843C8A58BE564 /* icon@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "icon@2x.png"; sourceTree = "<group>"; };
+		6371A0E490454232B88A22C4 /* CDVLocation.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVLocation.m; path = "cordova-plugin-geolocation/CDVLocation.m"; sourceTree = "<group>"; };
+		65A2D316AE534E56BC65FF35 /* icon-60@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "icon-60@2x.png"; sourceTree = "<group>"; };
+		6777CA2BFE024F6D8B447876 /* icon-40@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "icon-40@3x.png"; sourceTree = "<group>"; };
+		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = JitterzMobile/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		6B2730E85BA245ECAA07E63A /* CDVSplashScreen.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVSplashScreen.m; path = "cordova-plugin-splashscreen/CDVSplashScreen.m"; sourceTree = "<group>"; };
+		6C6990480DCC4A2FB994BF8F /* watch-87x87.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "watch-87x87.png"; sourceTree = "<group>"; };
+		6D94028C23304DFDA0330AD0 /* Default-667h.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Default-667h.png"; sourceTree = "<group>"; };
+		7583068851074DA39E60ED9D /* icon-83.5@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "icon-83.5@2x.png"; sourceTree = "<group>"; };
+		759EB8F0D9F7474CAAC7AB13 /* Default-736h.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Default-736h.png"; sourceTree = "<group>"; };
+		8182DACE7BF0415F87B984FA /* icon-72@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "icon-72@2x.png"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* JitterzMobile-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "JitterzMobile-Info.plist"; path = "JitterzMobile/JitterzMobile-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
+		95182DEC2C4C4BA0B3C92883 /* watch-88x88.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "watch-88x88.png"; sourceTree = "<group>"; };
+		9CCBC5D9545545B4A0CAFD59 /* Default@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Default@2x.png"; sourceTree = "<group>"; };
+		9D0EC2E651A44A66A8824801 /* Default-Portrait-1366@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Default-Portrait-1366@2x.png"; sourceTree = "<group>"; };
+		9EAC5DA75104439689A110B8 /* CDVViewController+SplashScreen.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "CDVViewController+SplashScreen.m"; path = "cordova-plugin-splashscreen/CDVViewController+SplashScreen.m"; sourceTree = "<group>"; };
+		A4D5B56869D84ECD84555AEB /* icon-60.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "icon-60.png"; sourceTree = "<group>"; };
+		A5D93EAA220E4D098D020FBE /* watch-55x55.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "watch-55x55.png"; sourceTree = "<group>"; };
+		A5F94AFF1C684BA19022E7BD /* CDVStatusBar.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVStatusBar.m; path = "cordova-plugin-statusbar/CDVStatusBar.m"; sourceTree = "<group>"; };
+		A89C99B294AD44F5B02AD021 /* Default.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = Default.png; sourceTree = "<group>"; };
+		B5CD3D0D68FA4C5AB7AE3560 /* CoreLocation.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B64F620B2B534D94BE4A3D41 /* Default-Landscape-1366@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Default-Landscape-1366@2x.png"; sourceTree = "<group>"; };
+		B7A539FC20DB4D97BCA0D2ED /* Default-Landscape-667h.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Default-Landscape-667h.png"; sourceTree = "<group>"; };
+		B7D4FC8410CB4B4583B6F633 /* watch-172x172.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "watch-172x172.png"; sourceTree = "<group>"; };
+		B937A8EF87C64E4D915D6A1B /* icon-40.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "icon-40.png"; sourceTree = "<group>"; };
+		BC04491312274AA9894E1E5D /* icon-72.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "icon-72.png"; sourceTree = "<group>"; };
+		BE8E3FC86B4548349FF15C6C /* CDVLocation.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVLocation.h; path = "cordova-plugin-geolocation/CDVLocation.h"; sourceTree = "<group>"; };
+		C36667ABC9074EDBAF136BDB /* icon-76@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "icon-76@2x.png"; sourceTree = "<group>"; };
+		CAF3C460145B4174ABA93B29 /* Default-Landscape.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		CC3CA119629D45E1B1AE5670 /* Default-Landscape@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Default-Landscape@2x.png"; sourceTree = "<group>"; };
+		CD05C212BA764498B7A49531 /* Default-568h@2x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
+		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
+		ED065FB927D44A81AFB88F78 /* icon-60@3x.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = "icon-60@3x.png"; sourceTree = "<group>"; };
+		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		F6AF3D1D65F5485E95DCDE39 /* icon.png */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = icon.png; sourceTree = "<group>"; };
+		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = JitterzMobile/config.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				9EC1759A2C904B93A203E549 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				302D95EE14D2391D003F00A1 /* MainViewController.h */,
+				302D95EF14D2391D003F00A1 /* MainViewController.m */,
+				302D95F014D2391D003F00A1 /* MainViewController.xib */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+			);
+			name = Classes;
+			path = JitterzMobile/Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* JitterzMobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				EB87FDF41871DAF40020F90C /* config.xml */,
+				EB87FDF31871DA8E0020F90C /* www */,
+				EB87FDF11871DA420020F90C /* Staging */,
+				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				307C750510C5A3420062BCA9 /* Plugins */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* JitterzMobile-Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */,
+			);
+			name = "Other Sources";
+			path = JitterzMobile;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3047A50E1AB8057F00498E2A /* config */,
+				8D1107310486CEB800E47090 /* JitterzMobile-Info.plist */,
+				6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */,
+				CD05C212BA764498B7A49531 /* Default-568h@2x.png */,
+				6D94028C23304DFDA0330AD0 /* Default-667h.png */,
+				759EB8F0D9F7474CAAC7AB13 /* Default-736h.png */,
+				B64F620B2B534D94BE4A3D41 /* Default-Landscape-1366@2x.png */,
+				B7A539FC20DB4D97BCA0D2ED /* Default-Landscape-667h.png */,
+				56D4EE4D37A9450B85E58389 /* Default-Landscape-736h.png */,
+				CAF3C460145B4174ABA93B29 /* Default-Landscape.png */,
+				CC3CA119629D45E1B1AE5670 /* Default-Landscape@2x.png */,
+				9D0EC2E651A44A66A8824801 /* Default-Portrait-1366@2x.png */,
+				588E619F88344826AE5BFB3C /* Default-Portrait.png */,
+				0924685621C94F4E83DA1AA1 /* Default-Portrait@2x.png */,
+				A89C99B294AD44F5B02AD021 /* Default.png */,
+				9CCBC5D9545545B4A0CAFD59 /* Default@2x.png */,
+				B937A8EF87C64E4D915D6A1B /* icon-40.png */,
+				563F5A062B4E42C399831473 /* icon-40@2x.png */,
+				6777CA2BFE024F6D8B447876 /* icon-40@3x.png */,
+				A4D5B56869D84ECD84555AEB /* icon-60.png */,
+				65A2D316AE534E56BC65FF35 /* icon-60@2x.png */,
+				ED065FB927D44A81AFB88F78 /* icon-60@3x.png */,
+				BC04491312274AA9894E1E5D /* icon-72.png */,
+				8182DACE7BF0415F87B984FA /* icon-72@2x.png */,
+				3EDBDDBCC56E41538061CF5E /* icon-76.png */,
+				C36667ABC9074EDBAF136BDB /* icon-76@2x.png */,
+				7583068851074DA39E60ED9D /* icon-83.5@2x.png */,
+				059CA5C30B5748AC86C74800 /* Icon-Small-50.png */,
+				4D65521F0D594B1C8556A80E /* Icon-Small-50@2x.png */,
+				252EF69BA0894CCCBBF63D34 /* Icon-Small.png */,
+				1813E58568A94288BC2B9FAF /* Icon-Small@2x.png */,
+				F6AF3D1D65F5485E95DCDE39 /* icon.png */,
+				6271A1BBCBF843C8A58BE564 /* icon@2x.png */,
+				B7D4FC8410CB4B4583B6F633 /* watch-172x172.png */,
+				25A1706D086344A5947A33E9 /* watch-196x196.png */,
+				2458776D3AD04C53A99AD07C /* watch-48x48.png */,
+				A5D93EAA220E4D098D020FBE /* watch-55x55.png */,
+				42DDDDEAB6054392B9B8F96E /* watch-58x58.png */,
+				5F40C73874FC416994DC7009 /* watch-80x80.png */,
+				6C6990480DCC4A2FB994BF8F /* watch-87x87.png */,
+				95182DEC2C4C4BA0B3C92883 /* watch-88x88.png */,
+			);
+			name = Resources;
+			path = JitterzMobile/Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5CD3D0D68FA4C5AB7AE3560 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		301BF52E109A57CC0062928A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301BF535109A57CC0062928A /* libCordova.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3047A50E1AB8057F00498E2A /* config */ = {
+			isa = PBXGroup;
+			children = (
+				3047A50F1AB8059700498E2A /* build-debug.xcconfig */,
+				3047A5101AB8059700498E2A /* build-release.xcconfig */,
+				3047A5111AB8059700498E2A /* build.xcconfig */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		307C750510C5A3420062BCA9 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				6371A0E490454232B88A22C4 /* CDVLocation.m */,
+				BE8E3FC86B4548349FF15C6C /* CDVLocation.h */,
+				6B2730E85BA245ECAA07E63A /* CDVSplashScreen.m */,
+				9EAC5DA75104439689A110B8 /* CDVViewController+SplashScreen.m */,
+				4E36367F53294B17884E766B /* CDVSplashScreen.h */,
+				0961EB2ED6D442268FA0A00D /* CDVViewController+SplashScreen.h */,
+				A5F94AFF1C684BA19022E7BD /* CDVStatusBar.m */,
+				0476C9283A664C7CA7761422 /* CDVStatusBar.h */,
+			);
+			name = Plugins;
+			path = JitterzMobile/Plugins;
+			sourceTree = SOURCE_ROOT;
+		};
+		EB87FDF11871DA420020F90C /* Staging */ = {
+			isa = PBXGroup;
+			children = (
+				F840E1F0165FE0F500CFE078 /* config.xml */,
+				301BF56E109A69640062928A /* www */,
+			);
+			name = Staging;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* JitterzMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "JitterzMobile" */;
+			buildPhases = (
+				304B58A110DAC018002A0835 /* Copy www directory */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301BF551109A68C00062928A /* PBXTargetDependency */,
+			);
+			name = JitterzMobile;
+			productName = JitterzMobile;
+			productReference = 1D6058910D05DD3D006BFB54 /* JitterzMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 510;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = PN5XDES3G3;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "JitterzMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 301BF52E109A57CC0062928A /* Products */;
+					ProjectRef = 301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* JitterzMobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		301BF535109A57CC0062928A /* libCordova.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCordova.a;
+			remoteRef = 301BF534109A57CC0062928A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
+				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
+				94A35732F12D4672AEE3CA1C /* Default-568h@2x.png in Resources */,
+				307CA19FD648472DA7C050A2 /* Default-667h.png in Resources */,
+				4324926348AD485D93ABB531 /* Default-736h.png in Resources */,
+				4CB36787EBBF410B8E6AE28C /* Default-Landscape-1366@2x.png in Resources */,
+				C9D4755AD11C404993A5C8F0 /* Default-Landscape-667h.png in Resources */,
+				41F975F831D547978D2574BD /* Default-Landscape-736h.png in Resources */,
+				3820531BE5834FF6A6338A06 /* Default-Landscape.png in Resources */,
+				2690A57EC99542F79327C74E /* Default-Landscape@2x.png in Resources */,
+				9F456CBF64314B73B008A852 /* Default-Portrait-1366@2x.png in Resources */,
+				846EB80FF32847759496F66B /* Default-Portrait.png in Resources */,
+				21810B7DF383443B826B7C60 /* Default-Portrait@2x.png in Resources */,
+				D2C0EADDE44A4BB5933E814E /* Default.png in Resources */,
+				58F76FA36D23405482360A6E /* Default@2x.png in Resources */,
+				E2F7E822EB4A4F42B444633A /* icon-40.png in Resources */,
+				74B44AA4B95642D398D92C0B /* icon-40@2x.png in Resources */,
+				E4ABF19D50C14383A03F8C05 /* icon-40@3x.png in Resources */,
+				3A30F6948EB44F9596D3FB72 /* icon-60.png in Resources */,
+				647AD0537AA047FCA6D19F10 /* icon-60@2x.png in Resources */,
+				20A6DAC912984AADBBF170E9 /* icon-60@3x.png in Resources */,
+				E470C768EB184D1885C79D1A /* icon-72.png in Resources */,
+				6BBD782E93B849D2B7A04AC2 /* icon-72@2x.png in Resources */,
+				A3379375863645E5B465B333 /* icon-76.png in Resources */,
+				E60C25641F0F430BAF81AC3B /* icon-76@2x.png in Resources */,
+				A889305373564F0EAD8BD5A2 /* icon-83.5@2x.png in Resources */,
+				94CB5A7D863A44E9B5E4A34C /* Icon-Small-50.png in Resources */,
+				A5EFC1C1FFEF412BBE409848 /* Icon-Small-50@2x.png in Resources */,
+				2D1F86DFEDB94A9EB8B2AA66 /* Icon-Small.png in Resources */,
+				68AF5A5A3147458BBAEE493B /* Icon-Small@2x.png in Resources */,
+				9EA4B8F58B944D4DB3C8637D /* icon.png in Resources */,
+				8F21331872534B0F9B4BDF4E /* icon@2x.png in Resources */,
+				4E1A886B4F0344408ED0DA4B /* watch-172x172.png in Resources */,
+				46E83838AD4F40FF84D31B12 /* watch-196x196.png in Resources */,
+				60A4979309F0473E90FF1A14 /* watch-48x48.png in Resources */,
+				DEEEAD30737B4B8EBAE55C3D /* watch-55x55.png in Resources */,
+				E99A5C9AD4754C1AA5FA9C0B /* watch-58x58.png in Resources */,
+				DA6816702BFF438DA371B341 /* watch-80x80.png in Resources */,
+				1AA230DF4D4A4065994DCC22 /* watch-87x87.png in Resources */,
+				56C343F3944F4B83B0D59D9E /* watch-88x88.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		304B58A110DAC018002A0835 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				3A75E13CB4814F889F1AD6E3 /* CDVLocation.m in Sources */,
+				454F1BC622CD44A1AEEE532F /* CDVSplashScreen.m in Sources */,
+				0CE9E8DCDC4D4CA6A5D2EBBB /* CDVViewController+SplashScreen.m in Sources */,
+				244A4A86CA6B46A9B9CEFA22 /* CDVStatusBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301BF551109A68C00062928A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CordovaLib;
+			targetProxy = 301BF550109A68C00062928A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A50F1AB8059700498E2A /* build-debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = PN5XDES3G3;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JitterzMobile/JitterzMobile-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "JitterzMobile/JitterzMobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_NAME = JitterzMobile;
+				PROVISIONING_PROFILE = "35b3a32d-6437-4e41-8614-2d698d8f46f2";
+				PROVISIONING_PROFILE_SPECIFIER = "Development Profile";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5101AB8059700498E2A /* build-release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = PN5XDES3G3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JitterzMobile/JitterzMobile-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "JitterzMobile/JitterzMobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				PRODUCT_NAME = JitterzMobile;
+				PROVISIONING_PROFILE = "35b3a32d-6437-4e41-8614-2d698d8f46f2";
+				PROVISIONING_PROFILE_SPECIFIER = "Development Profile";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A5111AB8059700498E2A /* build.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "JitterzMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "JitterzMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
